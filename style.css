@@ -1,0 +1,236 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: bioland;
+    src: url(font/Marhey-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: artigo;
+    src: url(font/Manrope-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(font/Roboto-Bold.ttf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white ;
+}
+
+header {
+    display: flex;
+    padding: 15px;
+    height: 130px;
+    background: linear-gradient(to right, #0CFA18, #148F13);
+}
+
+header > h1 {
+    font-family: bioland;
+    font-size: 3em;
+    color: white;
+}
+
+header > div {
+    padding: 20px;
+    justify-content: center;
+}
+
+header > div > input{
+    background-color: white;
+    padding: 11px;
+    width: 200px;
+    font-family: artigo;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+header> div > button {
+    margin-left: -4px;
+    background-color: #447CE1;
+    padding: 11px;
+    font-family: artigo;
+    color: white;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+}
+
+nav {
+    padding: 8px;
+    background-color: black;
+}
+
+nav > a {
+    font-family: artigo;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+
+nav > a:hover {
+    text-decoration: overline;
+    color: rgb(50, 205, 58);
+    transition: 0.2s;
+}
+
+main {
+    min-width: 300px;
+    max-width: 1000px;
+    background-color: #4dfa56;
+    margin: auto;
+    margin-bottom: 35px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+main > h1 {
+    font-family: titulo;
+    font-size: 1.8em;
+    padding: 20px;
+    color: #148F13;
+    text-align: center;
+}
+
+main > p {
+    font-family: artigo;
+    font-size: 1em;
+    color: black;
+    line-height: 1.7em;
+    text-indent: 30px;
+    padding: 0px 25px 25px 25px;
+    text-align: justify;
+}
+
+main > picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+main > picture > img {
+    width: 700px;
+    border-radius: 15px;
+}
+
+aside {
+    background-color: #27b12e;
+    margin: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+    height: 400px;
+}
+
+aside > h1 {
+    font-family: titulo;
+    font-size: 1.7em;
+    padding: 3px;
+    text-indent: 10px;
+    background-color: #18ee18;
+}
+
+aside > ul {
+    list-style-position: inside;
+    padding: 15px;
+    font-family: artigo;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.9em;
+}
+
+aside > p {
+    font-family: artigo;
+    padding: 25px;
+    font-size: 1em;
+    line-height: 30px;
+    text-indent: 20px;
+    text-align: justify;
+}
+
+footer {
+    background: linear-gradient(to right, #0CFA18, #148F13);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+footer > .h1pul-juntos {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    line-height: px;
+}
+
+footer > .h1pul-juntos > h1 {
+    font-family: bioland;
+    font-size: 2em;
+}
+
+footer > .h1pul-juntos > p {
+    font-family: artigo;
+    font-size: 1em;
+    align-self: flex-end;
+    justify-content: baseline;
+    color: white;
+}
+
+footer > .h1pul-juntos > ul {
+    list-style-position: inside;
+    line-height: 20px;
+    padding-top: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    font-family: artigo;
+    font-size: 14px;
+    color: #015aff;
+}
+
+footer a:hover {
+    color: rgb(5, 16, 175);
+}
+
+footer > div {
+    padding: 20px;
+    align-self: center;
+}
+
+footer > div > input{
+    background-color: white;
+    padding: 11px;
+    width: 200px;
+    font-family: artigo;
+    border: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+}
+
+footer > div > button {
+    margin-left: -4px;
+    background-color: #447CE1;
+    padding: 11px;
+    font-family: artigo;
+    color: white;
+    border: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+    cursor: pointer;
+}
