@@ -22,20 +22,31 @@
 }
 
 body {
-    background-color: white ;
+    background-color: #b8dfb8 ;
 }
 
 header {
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     padding: 15px;
     height: 130px;
     background: linear-gradient(to right, #0CFA18, #148F13);
 }
 
+header > div {
+    align-self: center;
+}
+
 header > h1 {
     font-family: bioland;
     font-size: 3em;
+    font-weight: normal;
     color: white;
+}
+
+header > h1 > id {
+    font-weight: 700;
 }
 
 header > div {
@@ -160,6 +171,14 @@ aside > p {
     text-align: justify;
 }
 
+aside a {
+    background-color: #447CE1;
+    color: white;
+    padding: 3px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
 footer {
     background: linear-gradient(to right, #0CFA18, #148F13);
     padding: 20px;
@@ -179,10 +198,11 @@ footer > .h1pul-juntos {
 footer > .h1pul-juntos > h1 {
     font-family: bioland;
     font-size: 2em;
+    color: white;
 }
 
 footer > .h1pul-juntos > p {
-    font-family: artigo;
+    font-family: titulo;
     font-size: 1em;
     align-self: flex-end;
     justify-content: baseline;
