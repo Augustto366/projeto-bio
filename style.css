@@ -93,7 +93,7 @@ nav > a {
 
 nav > a:hover {
     text-decoration: overline;
-    color: rgb(50, 205, 58);
+    color: #32cd3a;
     transition: 0.2s;
 }
 
@@ -115,6 +115,41 @@ main > h1 {
     color: #148F13;
     text-align: center;
 }
+
+main > h2 {
+    font-family: titulo;
+    font-size: 1.8em;
+    background: linear-gradient(to right, transparent, #0CFA18, transparent);
+    padding: 20px;
+    color: white ;
+    text-align: center;
+}
+
+main > .listapremium {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > .listapremium > ul {
+    list-style-position: inside;
+    padding: 20px;
+    font-family: artigo;
+    font-style: italic;
+    columns: 2;
+    column-gap: 130px;
+}
+
+main > .listapremium > .pgpp {
+    display: flex;
+}
+
+main > .listapremium > .pgpp > p {
+    font-family: titulo;
+    font-size: 1.2em;
+    
+}
+
 
 main > p {
     font-family: artigo;
