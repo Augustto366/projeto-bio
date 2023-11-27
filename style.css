@@ -42,6 +42,7 @@ header > h1 {
     font-family: bioland;
     font-size: 3em;
     font-weight: normal;
+    align-self: center;
     color: white;
 }
 
@@ -100,7 +101,7 @@ nav > a:hover {
 main {
     min-width: 300px;
     max-width: 1000px;
-    background-color: #4dfa56;
+    background-color: #f3f6ff;
     margin: auto;
     margin-bottom: 35px;
     border-bottom-left-radius: 15px;
@@ -197,15 +198,6 @@ aside > h1 {
     background-color: #18ee18;
 }
 
-aside > ul {
-    list-style-position: inside;
-    padding: 15px;
-    font-family: artigo;
-    font-size: 1em;
-    font-weight: bold;
-    line-height: 1.9em;
-}
-
 aside > p {
     font-family: artigo;
     padding: 25px;
@@ -216,8 +208,7 @@ aside > p {
 }
 
 aside a {
-    background-color: #447CE1;
-    color: white;
+    color: #447CE1;
     padding: 3px;
     text-decoration: none;
     font-weight: 700;
@@ -287,6 +278,25 @@ footer > button {
 }
 
 footer > button:hover {
+    filter: brightness(110%);
+    transition: 0.2s;
+}
+
+footer > .burocratico {
+    display: flex;
+    align-items: flex-end;
     
+}
+
+footer > .burocratico > a {
+    font-family: titulo;
+    color: white;
+    font-size: 17px;
+    margin-right: 25px;
+}
+
+footer > .burocratico > a:hover {
+    color: rgb(225, 223, 223);
+    transition: 0.2s;
 }
 
