@@ -112,7 +112,7 @@ main > h1 {
     font-family: titulo;
     font-size: 1.8em;
     padding: 20px;
-    color: #148F13;
+    color: #102850;
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ main > h2 {
     font-size: 1.8em;
     background: linear-gradient(to right, transparent, #0CFA18, transparent);
     padding: 20px;
-    color: white ;
+    color: #102850 ;
     text-align: center;
 }
 
@@ -140,16 +140,25 @@ main > .listapremium > ul {
     column-gap: 130px;
 }
 
-main > .listapremium > .pgpp {
+main > .pgpp {
     display: flex;
+    justify-content: space-evenly;
 }
 
-main > .listapremium > .pgpp > p {
+main > .pgpp > p {
     font-family: titulo;
-    font-size: 1.2em;
-    
+    font-size: 1.5em;
+    padding: 10px;
+    color: #102850;
 }
 
+#pg {
+    background: linear-gradient(to right, transparent, #18ee18 );
+}
+
+#pp {
+    background: linear-gradient(to right, transparent, yellow);
+}
 
 main > p {
     font-family: artigo;
@@ -261,31 +270,23 @@ footer a:hover {
     color: rgb(5, 16, 175);
 }
 
-footer > div {
-    padding: 20px;
-    align-self: center;
-}
-
-footer > div > input{
-    background-color: white;
-    padding: 11px;
-    width: 200px;
-    font-family: artigo;
-    border: none;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
-}
-
-footer > div > button {
-    margin-left: -4px;
-    background-color: #447CE1;
-    padding: 11px;
+footer > button {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: center;
+    height: 45px;
+    width: 300px;
     font-family: artigo;
     color: white;
+    background-color: #447CE1;
     border: none;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.356);
+    border-radius: 8px;
+    align-self: center;
     cursor: pointer;
 }
+
+footer > button:hover {
+    
+}
+
