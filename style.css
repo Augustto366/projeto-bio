@@ -44,6 +44,7 @@ header > h1 {
     font-weight: normal;
     align-self: center;
     color: white;
+    background-image: linear-gradient(to right, transparent, #447CE1, transparent);
 }
 
 header > h1 > id {
